@@ -1,59 +1,79 @@
 body {
-    background: #232323;
-    margin: 0;
-    font-family: sans-serif;
+	background: #b986c7;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
 }
 
 h1 {
-    color: aliceblue;
-    text-align: center;
-    background: salmon;
-    margin: 0;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height: 1.1;
-    padding: 20px 0;
+	color: white;
+	text-align: center;
+	background: rgb(131, 77, 153);
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
 }
 
-#color_display {
-    font-size: 200%;
+#colorDisplay {
+	font-size: 200%;
 }
 
 #message {
-    display: inline-block;
-    width: 20%;
+	display: inline-block;
+	width: 20%;
+    color: rgb(84, 20, 162);
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .square {
-    width: 30%;
-    padding-bottom: 30%;
-    background: purple;
-    float: left;
-    margin: 1.66%;
-    border-radius: 20%;
-    transition: background 0.6s;
+	width: 30%;
+	padding-bottom: 30%;
+	background: purple;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+    cursor: pointer;
+
 }
 
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+
 #nav {
-    background: white;
-    height: 60px;
-    text-align: center;
+	background: white;
+	height: 60px;
+	text-align: center;
 }
 
 .selected {
-    background: steelblue;
-    color: white;
+	background: rgba(100, 59, 154, 0.817);
+	color: white;
+}
+button:hover {
+	background: rgba(189, 111, 241, 0.801);
+	color: white;
 }
 
 button {
-    border: none;
-    background: none;
-    text-transform: uppercase;
-    height: 100%;
-    font-weight: 700;
-    color:aqua;
-    letter-spacing: 1px;
-    font-size: inherit;
-    transition: all 0.3s;
-    outline: none;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: rgb(110, 58, 138);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+    cursor: pointer;
 }
