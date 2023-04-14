@@ -82,10 +82,6 @@ function reset (){
 	h1.style.backgroundColor = "#4BDCD3";
 }
 
-//Reset button
-resetButton.addEventListener("click", function(){
-	reset();
-})
 
 //makes all squares the color as the correct answer
 function changeColors(color){
@@ -124,3 +120,11 @@ function randomColor(){
 	let b = Math.floor(Math.random() * 256);
 	return "rgb(" + r + ", " + g + ", " + b + ")";
 }
+
+
+
+// resetButton.addEventListener("click", function(){
+// 	reset();
+// })
+
+resetButton.addEventListener('click', reset);
